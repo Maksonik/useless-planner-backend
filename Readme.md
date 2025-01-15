@@ -1,0 +1,1 @@
+start dev app - `uvicorn app.core.main:app --reload`

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "useless-planner-backend"
+version = "0.1.0"
+description = ""
+authors = ["Sustavov Maksim <maksim.sustavov@edgecenter.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.37"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
