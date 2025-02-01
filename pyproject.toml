@@ -10,6 +10,11 @@ python = "^3.12"
 sqlalchemy = "^2.0.37"
 fastapi = "^0.115.6"
 uvicorn = "^0.34.0"
+mypy = "^1.14.1"
+pydantic = "^2.10.5"
+alembic = "^1.14.1"
+asyncpg = "^0.30.0"
+greenlet = "^3.1.1"
 
 
 [build-system]
